@@ -109,10 +109,19 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+
+
+@media screen and (max-width: 405px) {
    
     .gpt3__whatgpt3--container .gpt3__features--container_feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .gpt3__whatgpt3--heading h1 {
+        font-size: 25px;
+        line-height: 37px;
     }
 }
